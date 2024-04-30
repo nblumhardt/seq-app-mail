@@ -44,6 +44,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "harness", "harness", "{E684
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq.Mail.TestHarness", "harness\Seq.Mail.TestHarness\Seq.Mail.TestHarness.csproj", "{53B48FC5-E76D-4442-9259-DB57CDB53232}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seq.App.Mail.AmazonSes", "src\Seq.App.Mail.AmazonSes\Seq.App.Mail.AmazonSes.csproj", "{D124E851-B1CE-4DAD-8C1A-45697701D190}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -82,6 +84,10 @@ Global
 		{53B48FC5-E76D-4442-9259-DB57CDB53232}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53B48FC5-E76D-4442-9259-DB57CDB53232}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53B48FC5-E76D-4442-9259-DB57CDB53232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D124E851-B1CE-4DAD-8C1A-45697701D190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D124E851-B1CE-4DAD-8C1A-45697701D190}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D124E851-B1CE-4DAD-8C1A-45697701D190}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D124E851-B1CE-4DAD-8C1A-45697701D190}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +101,7 @@ Global
 		{A836BDA9-335E-49E1-AA68-DA3D8B6DABA0} = {B03B3086-D197-4B32-9AE2-8536C345EA2D}
 		{7E46171B-8E2F-42EB-8C10-526578F9BED0} = {91E482DE-E1E7-4CE1-9511-C0AF07F3648A}
 		{53B48FC5-E76D-4442-9259-DB57CDB53232} = {E684AE47-A861-44F3-A648-A512652ED9C5}
+		{D124E851-B1CE-4DAD-8C1A-45697701D190} = {91E482DE-E1E7-4CE1-9511-C0AF07F3648A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB6672D6-318E-493E-8B60-77F5A7A90E66}
